@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+}
+
+.side {
+    width: 200px;
+    background-color: #2a4b8d; /* Dark blue background color */
+    padding: 20px;
+    color: #fff; /* White text color */
+}
+
+.side h1,
+.side h3 {
+    display: flex;
+    align-items: center;
+    color: inherit; /* Inherit color from parent */
+}
+
+.side svg {
+    margin-right: 10px; /* Adjust the margin as needed for spacing between icon and text */
+    height: 24px;
+    fill: #fff;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: #f4f4f4; /* Light gray background color for the main content area */
+}
+
+.header {
+    background-color: #fff; /* White background color for the header */
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.line-one {
+    display: flex;
+    align-items: center;
+}
+
+.line-one svg {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.line-one input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc; /* Add a border for the input field */
+    border-radius: 3px;
+    width: 500px;
+    border-radius: 40px;
+    margin-right: 200px;
+    height: 10px;
+}
+
+.line-two {
+    display: flex;
+    align-items: center;
+}
+
+.line-two svg {
+    height: 48px;
+    margin-right: 20px;
+}
+
+.greeting {
+    margin-right: 500px;
+}
+
+button {
+    background-color: #2a4b8d; /* Dark blue background color for buttons */
+    color: #fff; /* White text color for buttons */
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #1c355e; /* Darker blue on hover for buttons */
+}
+
+
+section {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.card h5 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons svg {
+    fill: #555;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
